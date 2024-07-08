@@ -72,6 +72,10 @@ body{
     min-height: 400px;
 }
 
+.row-reverse{
+ flex-direction: row-reverse;
+}
+
 /* Header */
 
 .headers-container{
@@ -160,7 +164,7 @@ body{
     font-size: 15px;
     font-weight: bold;
     padding: 20px;
-    border-radius: 40%;
+    border-radius: 10%;
     border: none;
     margin-bottom: 120px;
 }
@@ -178,4 +182,36 @@ body{
 /* Main */
 
 /* Section */
+.two-title{
+    flex-direction: row-reverse;
+}
+
+.bottom-title{
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+.bottom-title img{
+    width: 800px;
+}
+
+.bottom-title button{
+    padding: 20px;
+    background-color: lightskyblue;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+
+.bottom-title button a{
+    text-decoration: none;
+}
+
+.bottom-title {
+   background-image: url(../img/stars.svg);
+   background-size: cover;
+   background-size: 70%;
+}
+
+
 
