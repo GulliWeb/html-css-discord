@@ -1,0 +1,45 @@
+/* default */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+}
+
+/* utils */
+.container{
+    min-height: 100px;
+}
+
+/* Header */
+header{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.header-top{
+    flex-basis: 75%;
+    margin: 15px auto;
+    background-color: darkgoldenrod;
+}
+
+.nav-container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left{
+    text-align: left;
+}
+
+.nav-center{
+    text-align: center;
+}
+
+.nav-right{
+    text-align: right;
+}
