@@ -26,6 +26,25 @@ body{
     color: black;
 }
 
+.bg-gray{
+    background-color: lightgray;
+}
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100px;
+}
+
+.section-h2{
+    font-size: 35px;
+}
+
+.section-img{
+    width: 400px;
+}
+
 /* Header */
 
 .headers-container{
@@ -77,6 +96,7 @@ body{
     border: none;
 }
 
+/* Button Hover properties */ 
 .nav-right > button:hover{
     background-color: aliceblue;
 }
@@ -117,3 +137,35 @@ body{
     border: none;
     margin-bottom: 120px;
 }
+
+/* Button Hover properties */ 
+
+.header-bottom #btn-left:hover{
+    background-color: aliceblue;
+}
+
+.header-bottom #btn-right:hover{
+    background-color: lightslategray;
+}
+
+/* Main */
+
+/* Section */
+
+.top{
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    background-color: white;
+    width: 100%;
+}
+
+.top-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    flex-basis: 50%;
+}
+
