@@ -45,6 +45,33 @@ body{
     width: 400px;
 }
 
+.section-container{
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    width: 100%;
+}
+
+.section-title-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    flex-basis: 50%;
+    min-height: 400px;
+}
+
+.layout-sec{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 50%;
+    margin: auto;
+    min-height: 400px;
+}
+
 /* Header */
 
 .headers-container{
@@ -141,7 +168,7 @@ body{
 /* Button Hover properties */ 
 
 .header-bottom #btn-left:hover{
-    background-color: aliceblue;
+    background-color: lightslategray;
 }
 
 .header-bottom #btn-right:hover{
@@ -151,21 +178,4 @@ body{
 /* Main */
 
 /* Section */
-
-.top{
-    display: flex;
-    align-items: center;
-    min-height: 100px;
-    background-color: white;
-    width: 100%;
-}
-
-.top-title {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    flex-basis: 50%;
-}
 
